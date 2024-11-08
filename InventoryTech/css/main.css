@@ -1,0 +1,48 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif; /* Set a clean and widely supported font */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}
+
+/* Buttons */
+button {
+  padding: 10px 20px; /* Adjust padding for better spacing */
+  border: none; /* Remove default button border */
+  border-radius: 5px; /* Add rounded corners */
+  cursor: pointer; /* Indicate clickable behavior */
+  background-color: #4caf50; /* Green color */
+  color: white;
+  font-weight: bold; /* Add some emphasis */
+  margin: 5px; /* Add some spacing between buttons */
+  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+button:hover {
+  background-color: #3e8e41; /* Darker green on hover */
+}
+
+/* Heading */
+h2.productos {
+  text-align: center; /* Center align the heading */
+  margin-top: 20px; /* Add some margin above the heading */
+  font-size: 1.5em; /* Increase heading size slightly */
+}
+
+/* Table (assuming you have a table for displaying products) */
+table {
+  width: 100%; /* Make the table full width */
+  border-collapse: collapse; /* Ensure borders collapse properly */
+}
+
+th,
+td {
+  padding: 10px; /* Adjust padding for better cell spacing */
+  border: 1px solid #ddd; /* Add thin table borders */
+  text-align: left; /* Align content to the left */
+}
+
+th {
+  background-color: #f2f2f2; /* Light gray background for table headers */
+  font-weight: bold; /* Bold text for headers */
+}
